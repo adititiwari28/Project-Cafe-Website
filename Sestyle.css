@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 120vh;
+    background-color: oldlace;
+}
+
+
+nav{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navheadcol{
+    text-align: left;
+}
+.navheadcol img{
+    
+    border-radius: 70%;
+    height: 100px;
+}
+.navheadcol h2{
+    
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: #593e27;
+
+}
+.navheadcol hr{
+    margin: auto;
+}
+.title{
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3e0c08;
+}
+hr{
+    margin: auto;
+    
+}
+.services{
+    width: 80% ;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+}
+.servicecol{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.servicecol img{
+    
+    width: 450px;
+    height: auto;
+
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover {
+    background: rgba(99, 64, 61, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 251, 251);
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.servicecol h5{
+    font-size: 20px;
+    font-family: cursive;
+}
+.servicecol p{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+.footer{
+    min-height: 23vh;
+    background-color: rgb(213, 176, 136);
+     display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+    
+}
+.f h3{
+    font-size: 25px;
+    font-family: cursive;
+    color: #3e0c08;
+    
+}
+.f p{
+    font-family: cursive;
+    font-size: 18px;
+    color: #593e27;
+}
+.flinks{
+    flex: 1;
+    text-align: right;
+}
+.flinks ul li{
+    margin-top: 10;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.flinks ul li a{
+    color: #3e0c08;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+    font-family:cursive;
+    font-style: italic;
+}
+.flinks ul li::after{
+    content: "";
+    width: 0px;
+    height: 2px ;
+    background: #593e27;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.flinks ul li:hover::after{
+    width: 80%;
+}
+
+/*office coffe program
+delivery
+mobile cafe*/

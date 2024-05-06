@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 150vh;
+    background-color: oldlace;
+}
+
+
+nav{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navheadcol{
+    text-align: left;
+}
+.navheadcol img{
+    
+    border-radius: 70%;
+    height: 100px;
+}
+.navheadcol h2{
+    
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: #593e27;
+
+}
+.navheadcol hr{
+    margin: auto;
+}
+.quote{
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3e0c08;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    color: #593e27;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+.menue{
+    top: 18px;
+    padding-top: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    float: left;
+    width: 35%;
+    margin-top: 10px;
+    height: 100px;
+    width: auto;
+}
+.list{
+    margin-top: 40px;
+    float: right;
+    width: 65%;
+    padding-right: 5px;
+    text-align: center;
+}
+.list hr{
+    margin: auto;
+    
+    width: 65%;
+    
+}
+.top{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3e0c08;
+}
+.sub{
+    font-size: 14px;
+    font-family: cursive;
+    color: #593e27;
+}
+
+
+.menue::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+.footer{
+    min-height: 23vh;
+    background-color: rgb(213, 176, 136);
+     display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+    
+}
+.f h3{
+    font-size: 25px;
+    font-family: cursive;
+    color: #3e0c08;
+    
+}
+.f p{
+    font-family: cursive;
+    font-size: 18px;
+    color: #593e27;
+}
+.flinks{
+    flex: 1;
+    text-align: right;
+}
+.flinks ul li{
+    margin-top: 10;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.flinks ul li a{
+    color: #3e0c08;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+    font-family:cursive;
+    font-style: italic;
+}
+.flinks ul li::after{
+    content: "";
+    width: 0px;
+    height: 2px ;
+    background: #593e27;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.flinks ul li:hover::after{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+

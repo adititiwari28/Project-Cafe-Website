@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 130vh;
+    background-color: oldlace;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navheadcol{
+    text-align: left;
+}
+.navheadcol img{
+    
+    border-radius: 70%;
+    height: 100px;
+}
+.navheadcol h2{
+    
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: #593e27;
+
+}
+.navheadcol hr{
+    margin: auto;
+}
+.navhead{
+    text-align: right;
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3e0c08;
+}
+
+        
+.b{
+    margin-top: 3%;
+    padding: 2% 3%;
+    justify-content: center;
+
+}
+.content{
+    float: left;
+    width: 47%;
+    text-align: left;
+    color: #3e0c08;
+
+}
+.content h4{
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    text-align: left;
+    font-size: 26px;
+    font-family: cursive;
+}
+.content hr{
+    width: 40%;
+    margin: left;
+}
+.img{
+    float: right;
+    width: 53%;
+}
+.img img{
+    width: 630px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    min-height: 23vh;
+    background-color: rgb(213, 176, 136);
+     display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+    
+}
+.f h3{
+    font-size: 25px;
+    font-family: cursive;
+    color: #3e0c08;
+    
+}
+.f p{
+    font-family: cursive;
+    font-size: 18px;
+    color: #593e27;
+}
+.flinks{
+    flex: 1;
+    text-align: right;
+}
+.flinks ul li{
+    margin-top: 10;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.flinks ul li a{
+    color: #3e0c08;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+    font-family:cursive;
+    font-style: italic;
+}
+.flinks ul li::after{
+    content: "";
+    width: 0px;
+    height: 2px ;
+    background: #593e27;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.flinks ul li:hover::after{
+    width: 80%;
+}
